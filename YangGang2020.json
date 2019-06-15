@@ -1,0 +1,738 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "meet andrew yang",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "IntroductionIntent",
+                    "slots": [],
+                    "samples": [
+                        "asian candidate",
+                        "asian president",
+                        "presidential candidate",
+                        "democrate president",
+                        "new candidate",
+                        "andrew yang",
+                        "president candidate",
+                        "president andrew yang",
+                        "running for president",
+                        "do you know andrew yang",
+                        "what about andrew yang",
+                        "yang twenty twenty",
+                        "yang two thousand twenty",
+                        "that guy andrew yang",
+                        "tell me about andrew yang",
+                        "who is andrew yang"
+                    ]
+                },
+                {
+                    "name": "UniversalBasicIncomeIntent",
+                    "slots": [],
+                    "samples": [
+                        "tax them crazy",
+                        "tax the hell out of them",
+                        "tax the shit out of them",
+                        "tax the millionaire",
+                        "company tax",
+                        "vat",
+                        "value added tax",
+                        "living hand to mouth",
+                        "paycheck to paycheck",
+                        "the freedom dividend",
+                        "Petroleum dividend",
+                        "dividend",
+                        "similiar to alaska",
+                        "like Alaska",
+                        "new social security",
+                        "twelve thousand a year",
+                        "free money",
+                        "one thousand dollars a month",
+                        "freedom dividend",
+                        "ubi",
+                        "what is universal basic income"
+                    ]
+                },
+                {
+                    "name": "PolicyListIntent",
+                    "slots": [],
+                    "samples": [
+                        "political compass",
+                        "has he thought this out",
+                        "tell me his platform",
+                        "what is his platform",
+                        "is he like most republicans",
+                        "is he a conservative",
+                        "is he a republican",
+                        "tell me his ideas",
+                        "what does he think",
+                        "is he like most democrates",
+                        "is he a democrat",
+                        "is he a liberal",
+                        "what are his politics",
+                        "what does he promote",
+                        "what does he believe",
+                        "policy",
+                        "policies",
+                        "stance",
+                        "what his his stance",
+                        "where does he stand",
+                        "how many policies",
+                        "state his policies",
+                        "list his policies",
+                        "tell me his policies",
+                        "what are his policies"
+                    ]
+                },
+                {
+                    "name": "YangBackgroundIntent",
+                    "slots": [],
+                    "samples": [
+                        "childhood memories",
+                        "high school experience",
+                        "what was he like in high school",
+                        "growing up",
+                        "tell me about his childhood",
+                        "where did he grow up",
+                        "about his background",
+                        "where was he raised",
+                        "how was he raised",
+                        "tell me his background",
+                        "what is his background",
+                        "what was his youth",
+                        "where was andrew yang born",
+                        "where was he born",
+                        "how did he grow up",
+                        "how did andrew yang grow up",
+                        "tell me about andrew yang"
+                    ]
+                },
+                {
+                    "name": "MedicareIntent",
+                    "slots": [],
+                    "samples": [
+                        "health care crises",
+                        "medicine failure",
+                        "medicine crises",
+                        "medical crises",
+                        "medical insurance",
+                        "health insurance",
+                        "thoughts on heatlh care",
+                        "health bill",
+                        "medical bills",
+                        "obamacare",
+                        "healthcare",
+                        "what about healthcare",
+                        "how does he feel about  medicare",
+                        "medicare"
+                    ]
+                },
+                {
+                    "name": "HumanCenteredCapitalismIntent",
+                    "slots": [],
+                    "samples": [
+                        "bankers",
+                        "bank bailout",
+                        "next economic stage",
+                        "the next stage of capitalism",
+                        "strength of our economy",
+                        "our economy",
+                        "human centered economy",
+                        "greedy companies",
+                        "bad companies",
+                        "evil companies",
+                        "billionaire companies",
+                        "money is evil",
+                        "humans are more important then money",
+                        "money is unimportant",
+                        "money is not important",
+                        "capitalist pig",
+                        "capitalist greed",
+                        "the market",
+                        "capitalist system",
+                        "capitalist",
+                        "human capitalism",
+                        "capitalism"
+                    ]
+                },
+                {
+                    "name": "LocalBiddingWarsIntent",
+                    "slots": [],
+                    "samples": [
+                        "community bidding",
+                        "community wars",
+                        "destroys community",
+                        "company changes town",
+                        "improve small towns",
+                        "bring more businesses to small town",
+                        "bidding wars",
+                        "local bidding",
+                        "localities",
+                        "steal jobs and investments",
+                        "company tricks small town",
+                        "company destroys small town",
+                        "companies ruining small town",
+                        "bidding on companies",
+                        "corporate relocation",
+                        "local bidding wars"
+                    ]
+                },
+                {
+                    "name": "PreservationOfLandIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "SmallBusinessPaymentsIntent",
+                    "slots": [],
+                    "samples": [
+                        "small business payments"
+                    ]
+                },
+                {
+                    "name": "PrivateDataRightsIntent",
+                    "slots": [],
+                    "samples": [
+                        "my data",
+                        "private data rights"
+                    ]
+                },
+                {
+                    "name": "ReduceWildfiresIntent",
+                    "slots": [],
+                    "samples": [
+                        "wild fireswest coast fires",
+                        "wild fires",
+                        "california fires"
+                    ]
+                },
+                {
+                    "name": "PrescriptionDrugCostIntent",
+                    "slots": [],
+                    "samples": [
+                        "expensive medicine",
+                        "medicine price",
+                        "medicine cost"
+                    ]
+                },
+                {
+                    "name": "VotingRightsRestorationIntent",
+                    "slots": [],
+                    "samples": [
+                        "convict rights",
+                        "ex-con",
+                        "criminal rights",
+                        "civil liberties restored",
+                        "vote again",
+                        "allowed to vote again",
+                        "voting rights back",
+                        "restore voting rights",
+                        "felon rights",
+                        "Voting rights restororation"
+                    ]
+                },
+                {
+                    "name": "CryptoAssestRegulationIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ProportionalElectorsIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ExpandSelectiveToolsIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "AutomaticVoterRegistrationIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "GridModernizationIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "HeadCultureCeremonyIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "WashingtonDCStateIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "GerrymanderingIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ReducePackageWasteIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "PublicCouncilAdvisorsIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "QuantumComputingEncryptionIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "NoPenniesIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ElectionDayHolidayIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "MMAFighterIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "SupremeCourtJusticeTermsIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "OfficeTechnologyAssessmentIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "LowerVotingAgeIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "DecreaseCashBailIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "YearLongDaylightSavingsTimeIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "FederalAgencyRelocationIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "DemocracyDollarsIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "RankedChoiceVotingIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "DecriminalizeOpiodsIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "FreedomDividendIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ClimateChangeIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ReduceMassIncarcerationIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "OpiodCrisesIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "LGBTQRightsIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ForeignPolicyFirstIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "GunSafetyIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "PaidFamilyLeaveIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "SupportArtsIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ControlHigherEducationIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "PathwayCitizenshipImmigrationIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "SouthernBorderSecurityIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "DREAMActIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ProChoiceIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "CampaignFinanceReformIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "EqualPayIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "VocationalEducationIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "CarbonFeeDividendIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "TeacherSalaryIncreaseIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "EarlyChildhoodEducationIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "LegalizeMarijuanaIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "PuertoRicoStateIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ValueAddedTaxIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "BigPharmaAccountabilityIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "MentalHealthInvestmentIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "AmericanJournalismFellowsIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "SmartPhoneHarmReductionIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "CopBodyCamIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "CollegeAthletePayIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "NuclearLaunchDecisionIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "FederalWorkforceBureaucracyIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "LocalJournalismFundIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "PostOfficeServiceIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ExchangeProgramIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "FederalRegulatorsIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "WhiteHouseStaffMentalHealthIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "FreeMarriageCounselingIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "SunsetOldLawsIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ProsperityGrantsIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "AirlinesCustomerIntention",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "AmericanScoreCardIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "SingleParentAssistanceIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "MedicalTechnologyInnovationIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "AutismFundingIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "RebuildAmericanInfrastructureIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ReduceStudentLoanIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "MedicalExpertsAccessIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "MedicareForAllIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "RetirementSavingIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "EarMarkRevivalIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "FreeFinancialCounselingIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "AffordableCommunityCollegeIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "HighSchoolLifeSkillsIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "MilitarySpendingModernizationIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "WorkRelocationIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "PaidLeavePolicyIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "SelfDrivingVehicleTransitionIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "CapitalGainCarriedInterestIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "FileIncomeTaxIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "FinancialTransactionTaxIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "TortReformIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "AmericanMallActIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "HighSkillIndividualEnticeIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ZoningIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "AlgorithmicTradingFraudIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "NuclearEnergyIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ModernizeVotingIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ModernTimeBankingIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "EconomicCrimeIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "MediaFragmentationIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "MakingTaxesFunIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "NetNeutralityIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "RegulateArtificialIntelligenceIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "RoboCallingIntent",
+                    "slots": [],
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
