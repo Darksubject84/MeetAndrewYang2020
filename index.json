@@ -15,26 +15,53 @@ const LaunchRequestHandler = {
             .getResponse();
     }
 };
-const HelloWorldIntentHandler = {
+const IntroductionIntentHandler = {
     canHandle(handlerInput) {
         return handlerInput.requestEnvelope.request.type === 'IntentRequest'
-            && handlerInput.requestEnvelope.request.intent.name === 'HelloWorldIntent';
+            && handlerInput.requestEnvelope.request.intent.name === 'IntroductionIntent';
     },
     handle(handlerInput) {
-        const speechText = 'Hello World!';
+        const speechText = 'Introducing, the one and only, Andrew Yang...'; //what we'll have Alexa Say
         return handlerInput.responseBuilder
             .speak(speechText)
-            //.reprompt('add a reprompt if you want to keep the session open for the user to respond')
+            .reprompt(speechText)//.reprompt('add a reprompt if you want to keep the session open for the user to respond')
             .getResponse();
     }
 };
+const UnniversalBasicIncomeIntentHandler = {
+    canHandle(handlerInput) {
+        return handlerInput.requestEnvelope.request.type === 'IntentRequest'
+            && handlerInput.requestEnvelope.request.intent.name === 'UnniversalBasicIncomeIntent';
+    },
+    handle(handlerInput) {
+        const speechText = 'https://www.yang2020.com/what-is-ubi/...'; //what we'll have Alexa Say
+        return handlerInput.responseBuilder
+            .speak(speechText)
+            .reprompt(speechText)//.reprompt('add a reprompt if you want to keep the session open for the user to respond')
+            .getResponse();
+    }
+};
+const PolicyListIntentHandler = {
+    canHandle(handlerInput) {
+        return handlerInput.requestEnvelope.request.type === 'IntentRequest'
+            && handlerInput.requestEnvelope.request.intent.name === 'PolicyListIntent';
+    },
+    handle(handlerInput) {
+        const speechText = 'https://www.yang2020.com/policies/...'; //what we'll have Alexa Say
+        return handlerInput.responseBuilder
+            .speak(speechText)
+            .reprompt(speechText)//.reprompt('add a reprompt if you want to keep the session open for the user to respond')
+            .getResponse();
+    }
+};
+//The rest of the intenthandlers copied and pasted below this and above the Amazon mandatory intents
 const HelpIntentHandler = {
     canHandle(handlerInput) {
         return handlerInput.requestEnvelope.request.type === 'IntentRequest'
             && handlerInput.requestEnvelope.request.intent.name === 'AMAZON.HelpIntent';
     },
     handle(handlerInput) {
-        const speechText = 'You can say hello to me! How can I help?';
+        const speechText = 'You can say hello to me! How can I help?'; 
 
         return handlerInput.responseBuilder
             .speak(speechText)
@@ -108,7 +135,115 @@ const ErrorHandler = {
 exports.handler = Alexa.SkillBuilders.custom()
     .addRequestHandlers(
         LaunchRequestHandler,
-        HelloWorldIntentHandler,
+        UnniversalBasicIncomeIntentHandler,
+        PolicyListIntentHandler,
+        YangBackgroundIntentHandler,
+        MedicareintentHandler,
+        HumanCenteredCapitalismIntentHandler,
+        LocalBiddingWarsIntentHandler,
+        PreservationOfLandIntentHandler,
+        SmallBusinessPaymentsIntentHandler,
+        PrivateDataRightsIntentHandler,
+        ReduceWildFiresIntentHandler,
+        PrescriptionDrugCostIntentHandler,
+        VotingRightsRegistrationIntentHandler,
+        CryptoAssestRegulationIntentHandler,
+        ProportionalElectorsIntentHandler,
+        ExpandSelectiveToolsIntentHandler,
+        AutomaticVoterRegristraionIntentHandler,
+        GridModernizationIntentHandler,
+        HeadCultureCeremonyIntentHandler,
+        WashingtonDCStateIntentHandler,
+        GerrymanderingIntentHandler,
+        ReducePackageWasteIntentHandler,
+        PublicCouncilAdvisorsIntentHandler,
+        QuantumComputingEncryptionIntentHandler,
+        NoPenniesIntentHandler,
+        ElectionDayHolidayIntentHandler,
+        MMAFighterIntentHandler,
+        SupremeCourtJusticeTermIntentHandler,
+        OfficeTechnologyAssessmentIntentHandler,
+        LowerVotingAgeIntentHandler,
+        DecreaseCashBailIntentHandler,
+        YearLongDaylightSavingsTimeIntentHandler,
+        FederalAgencyRelocationIntentHandler,
+        DemocracyDollarsIntentHandler,
+        RankedChoiceVotingIntentHandler,
+        DecriminalizeOpiodsIntentHandler,
+        FreedomDividendIntentHandler,
+        ClimateChangeIntentHandler,
+        ReduceMassIncarcerationIntentHandler,
+        OpiodCrisesIntentHandler,
+        LGBTQRightsIntentHandler,
+        ForeignPolicyFirstIntentHandler,
+        GunSafetyIntentHandler,
+        PaidFamilyLeaveIntentHandler,
+        SupportArtsIntentHandler,
+        ControlHigherEducationIntentHandler,
+        PathwayCitizenshipImmigrationIntentHandler,
+        SouthernBorderSecurityIntentHandler,
+        DREAMActIntentHandler,
+        ProChoiceIntentHandler,
+        CampaignFinanceReformIntentHandler,
+        EqualPayIntentHandler,
+        VocationalEducationIntentHandler,
+        CarbonFeeDividendIntentHandler,
+        TeacherSalaryIncreaseIntentHandler,
+        EarlyChildhoodEducationIntentHandler,
+        LegalizeMarijuanaIntentHandler,
+        PuertoRicoStateIntentHandler,
+        ValueAddedTaxIntentHandler,
+        BigPharmaAccountabilityIntentHandler,
+        MentalHealthInvestmentIntentHandler,
+        AmericanJournalismFellowsIntentHandler,
+        SmartphoneReductionHarmIntentHandler,
+        CopCameraIntentHandler,
+        NCAAAthletePayIntentHandler,
+        NuclearLaunchDecisionIntentHandler,
+        FederalWorkforceBureaucracyIntentHandler,
+        LocalJournalismFundIntentHandler,
+        PostOfficeServiceIntentHandler,
+        ExchangeProgramIntentHandler,
+        FederalRegulatorsIntentHandler,
+        WhiteHouseStaffMentalHealthIntentHandler,
+        FreeMarriageCounselingIntentHandler,
+        SunsetOldLawsIntentHandler,
+        ProsperityGrantsIntentHandler,
+        AirlinesCustomerIntentionHandler,
+        AmericanScoreCardIntentHandler,
+        SingleParentAssistanceIntentHandler,
+        MedicalTechnologyInnovationIntentHandler,
+        AutismFundingIntentHandler,
+        RebuildAmericanInfrastructureIntentHandler,
+        ReduceStudentLoanIntentHandler,
+        MedicalExpertsAccessIntentHandler,
+        MedicareForAllIntentHandler,
+        RetirementSavingIntentHandler,
+        EarmarkRevivalIntentHandler,
+        FreeFinancialCounselingIntentHandler,
+        AffordableCommunityCollegeIntentHandler,
+        HighSchoolLifeSkillsIntentHandler,
+        MilitarySpendingModernizationIntentHandler,
+        WorkRelocationIntentHandler,
+        PaidLeavePolicyIntentHandler,
+        SelfDrivingVehicleTransitionIntentHandler,
+        CapitalGainCarriedInterestIntentHandler,
+        FileIncomeTaxIntentHandler,
+        FinancialTransactionTaxIntentHandler,
+        TortReformIntentHandler,
+        AmericanMallActIntentHandler,
+        HighSkillIndividualEnticeIntentHandler,
+        ZoningIntentHandler,
+        AlgorithmicTradingFraudIntentHandler,
+        NuclearEnergyIntentHandler,
+        ModernizeVotingIntentHandler,
+        ModernTimeBankingIntentHandler,
+        EconomicCrimeIntentHandler,
+        MediaFragmentationIntentHandler,
+        MakingTaxesFunIntentHandler,
+        NetNeutralityIntentHandler,
+        RegulateArtificialIntelligenceIntentHandler,
+        RoboCallingIntentHandler,
         HelpIntentHandler,
         CancelAndStopIntentHandler,
         SessionEndedRequestHandler,
