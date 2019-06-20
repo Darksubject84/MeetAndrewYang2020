@@ -1,19 +1,16 @@
 {
-  "name": "skill-sample-nodejs-fact-i18n",
-  "version": "2.0.0",
-  "description": "I18n version of fact skill.",
+  "name": "meet-andrew-yang",
+  "version": "0.9.0",
+  "description": "alexa skill for learning andrew yang policies",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "alexa",
-    "skill",
-    "fact"
-  ],
-  "author": "Amazon.com",
-  "license": "Apache-2.0",
+  "author": "Michael Adair",
+  "license": "ISC",
   "dependencies": {
-    "ask-sdk": "^2.0.0"
+    "ask-sdk-core": "^2.0.7",
+    "ask-sdk-model": "^1.4.1",
+    "aws-sdk": "^2.326.0"
   }
 }
