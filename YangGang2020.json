@@ -249,7 +249,11 @@
                 {
                     "name": "CryptoAssestRegulationIntent",
                     "slots": [],
-                    "samples": []
+                    "samples": [
+                        "bitcoin",
+                        "crypto coin",
+                        "digital coin",
+                    ]
                 },
                 {
                     "name": "ProportionalElectorsIntent",
