@@ -733,7 +733,16 @@
                 {
                     "name": "RoboCallingIntent",
                     "slots": [],
-                    "samples": []
+                    "samples": [
+                      "robocalling",
+                      "robo-calling",
+                      "robot calls",
+                      "automated robot calls",
+                      "block robot calls",
+                      "how to stop robot calls",
+                      "report robot calls",
+                      "stop robot calls"
+                    ]
                 }
             ],
             "types": []
