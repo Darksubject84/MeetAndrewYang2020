@@ -253,6 +253,10 @@
                         "bitcoin",
                         "crypto coin",
                         "digital coin",
+                        "cryptocurrency",
+                        "Token Taxonomy Act",
+                        "digital assets",
+                        "regulate bitcoin"
                     ]
                 },
                 {
@@ -728,12 +732,30 @@
                 {
                     "name": "RegulateArtificialIntelligenceIntent",
                     "slots": [],
-                    "samples": []
+                    "samples": [
+                      "skynet",
+                      "regulate AI",
+                      "regulating artificial intelligence",
+                      "AI take over",
+                      "artificial intelligence take over",
+                      "keep AI safe",
+                      "artificial intelligence safety",
+                      "people safe from AI"
+                    ]
                 },
                 {
                     "name": "RoboCallingIntent",
                     "slots": [],
-                    "samples": []
+                    "samples": [
+                      "robocalling",
+                      "robo-calling",
+                      "robot calls",
+                      "automated robot calls",
+                      "block robot calls",
+                      "how to stop robot calls",
+                      "report robot calls",
+                      "stop robot calls"
+                    ]
                 }
             ],
             "types": []
